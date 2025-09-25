@@ -1,0 +1,32 @@
+# --- General Build and Cache Files ---
+# Ignore all 'build' directories
+/build/
+**/build/
+# Ignore Gradle files and caches
+.gradle/
+*.log
+
+# --- IDE (IntelliJ/Android Studio) Files ---
+# Ignore IDE project settings
+.idea/
+# Ignore old project file types
+*.iml
+*.iws
+*.ipr
+
+# --- Java/JVM Files ---
+*.class
+# JVM crash logs
+hs_err_pid*
+
+# --- Frontend (Android) Specific Ignored Files ---
+# Local Configuration (DO NOT COMMIT)
+/NotepKT/frontend/local.properties
+/NotepKT/frontend/*.apk
+/NotepKT/frontend/*.aab
+/NotepKT/frontend/captures/
+/NotepKT/frontend/app/build/
+/NotepKT/frontend/.cxx/
+/NotepKT/frontend/.externalNativeBuild/
+# New Kotlin compiler cache as of Kotlin 2.0 (if applicable)
+.kotlin/
