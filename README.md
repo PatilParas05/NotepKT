@@ -111,25 +111,10 @@ CREATE TABLE notes (
 );
 # To exit psql, type \q
   ```
-## 🔑 Step 2: Configure Authentication
-
-You need to get two different Client IDs from a single Google Cloud project to handle authentication.
-
-1. Go to **Google Cloud Console > APIs & Services > Credentials**.
-
-2. Create the following OAuth 2.0 Client IDs:
-
-   - **Web Application Client ID**:
-     - Purpose: Used by the Ktor backend
-     - Location: Paste into `GOOGLE_CLIENT_ID` in `Routing.kt`
-
-   - **Android Client ID**:
-     - Purpose: Used by the Jetpack Compose mobile app
-     - Location: Paste into `GOOGLE_CLIENT_ID` in `MainActivity.kt`
 
 ---
 
-## 💻 Step 3: Run the Ktor Backend
+## 💻 Step 2: Run the Ktor Backend
 
 1. Open the backend project in **IntelliJ IDEA**.
 
@@ -142,7 +127,7 @@ http://localhost:8080
 
 ---
 
-## 📱 Step 4: Run the Jetpack Compose Frontend
+## 📱 Step 3: Run the Jetpack Compose Frontend
 
 1. Open the frontend project in **Android Studio**.
 
